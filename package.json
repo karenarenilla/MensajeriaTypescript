@@ -1,0 +1,22 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "Servicio de mensajeria",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karenarenilla/MensajeriaTypescript.git"
+  },
+  "author": "Karen Arenilla",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karenarenilla/MensajeriaTypescript/issues"
+  },
+  "homepage": "https://github.com/karenarenilla/MensajeriaTypescript#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
