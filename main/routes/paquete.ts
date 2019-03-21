@@ -1,7 +1,7 @@
 import { Application } from "express";
 import Controller from "contrib/interfaces/controller";
-
-export default class UserRouter {
+ 
+export default class PaqueteRouter {
     private controller: Controller;
 
     constructor(version: string, app: Application, controller: Controller) {
@@ -15,5 +15,6 @@ export default class UserRouter {
         .post(this.controller.create)
         .put(this.controller.update)
         .delete(this.controller.delete);
+        
     }
 }

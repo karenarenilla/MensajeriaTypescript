@@ -1,7 +1,7 @@
 import { Application } from "express";
 import Controller from "contrib/interfaces/controller";
 
-export default class UserRouter {
+export default class ServicioRouter {
     private controller: Controller;
 
     constructor(version: string, app: Application, controller: Controller) {
