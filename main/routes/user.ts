@@ -1,6 +1,6 @@
 import { Application } from "express";
 import Controller from "contrib/interfaces/controller";
-
+ 
 export default class UserRouter {
     private controller: Controller;
 

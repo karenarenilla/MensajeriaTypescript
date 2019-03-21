@@ -1,12 +1,11 @@
 import { Application } from "express";
 import Controller from "contrib/interfaces/controller";
 
-export default class UserRouter {
+export default class RutaRouter {
     private controller: Controller;
 
     constructor(version: string, app: Application, controller: Controller) {
         this.controller = controller;
-
 
         app.route(`${version}/ruta/findOne`)
         .get(this.controller.findOne);
